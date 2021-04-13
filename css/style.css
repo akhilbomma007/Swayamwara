@@ -85,6 +85,21 @@ body {
     text-align: left;
 }
 
+.event-desc {
+    color: black;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+@media (max-width: 700px) {
+    .event-heading {
+        text-align: center;
+    }
+    .event-desc {
+        text-align: center;
+    }
+}
+
 .event-card {
     border: #343434 solid 3px;
 }
