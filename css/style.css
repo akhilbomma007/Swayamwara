@@ -3,10 +3,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.left-align {
-    text-align: left;
-}
-
 .row {
     padding: 1% 0;
 }
@@ -84,6 +80,11 @@ body {
     color: white;
 }
 
+.event-heading {
+    color: black;
+    text-align: left;
+}
+
 .event-card {
     border: #343434 solid 3px;
 }
@@ -150,7 +151,14 @@ body {
 }
 
 .team-desc{
-    padding: 0 5%;
+    padding: 7%;
+    text-align: left;
+}
+
+@media (max-width: 700px) {
+    .team-desc{
+        text-align: center;
+    }
 }
 
 /* contact  */
